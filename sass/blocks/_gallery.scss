@@ -1,0 +1,66 @@
+.gallery {
+    min-height: 2398px;
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #Facebook {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #slack {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 179px;
+    }
+
+    #Joe {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #coca-cola {
+        grid-column: 1/2;
+        margin-top: 120px;
+    }
+
+    #Zenefits {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin-top: 159px;
+    }
+
+    #MoneyLion {
+        margin-top: 179px;
+
+    }
+
+    &__wrapper {
+        margin-top: 14px;
+    }
+
+    &__subtitle {
+        color: rgb(36, 36, 36);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.42px;
+        text-align: left;
+    }
+
+    &__descr {
+        margin-top: 7px;
+        color: rgb(133, 148, 171);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+}
